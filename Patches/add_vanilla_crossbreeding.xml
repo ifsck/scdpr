@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="YorkshireTerrier"]/race</xpath>
+	<value>
+	  <canCrossBreedWith>
+	    <li>SCNewfoundland</li>
+	  </canCrossBreedWith>
+	</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="LabradorRetriever"]/race</xpath>
+	<value>
+	  <canCrossBreedWith>
+	    <li>SCNewfoundland</li>
+	  </canCrossBreedWith>
+	</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Husky"]/race</xpath>
+	<value>
+	  <canCrossBreedWith>
+	    <li>SCNewfoundland</li>
+	  </canCrossBreedWith>
+	</value>
+  </Operation>
+</Patch>

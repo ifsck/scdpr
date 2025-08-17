@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--Newfoundland-->
+	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+		<defName>SCNewfoundland</defName>
+		<label>newfoundland</label>
+		<description>A large, noble breed. These dogs are valued for their gentle dispositions and trainability.</description>
+		<statBases>
+			<MoveSpeed>5.2</MoveSpeed>
+			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+			<ComfyTemperatureMax>25</ComfyTemperatureMax>
+			<MarketValue>300</MarketValue>
+			<Wildness>0</Wildness>
+		</statBases>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<labelNoLocation>claw</labelNoLocation>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claw</label>
+				<labelNoLocation>claw</labelNoLocation>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>21</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<animalType>Canine</animalType>
+			<packAnimal>true</packAnimal>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<petness>1</petness>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>1.1</baseBodySize>
+			<baseHungerRate>0.5</baseHungerRate>
+			<baseHealthScale>1.5</baseHealthScale>
+			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Dog</leatherDef>
+			<gestationPeriodDays>10</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<trainability>Advanced</trainability>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
+			<waterCellCost>1</waterCellCost>
+			<nuzzleMtbHours>12</nuzzleMtbHours>
+			<soundEating>PredatorSmall_Eat</soundEating>
+			<canCrossBreedWith>
+				<li>YorkshireTerrier</li>
+				<li>LabradorRetriever</li>
+				<li>Husky</li>
+				<li MayRequire="VanillaExpanded.VanillaAnimalsExpanded">AEXP_Beagle</li>
+				<li MayRequire="VanillaExpanded.VanillaAnimalsExpanded">AEXP_Chihuahua</li>
+				<li MayRequire="VanillaExpanded.VanillaAnimalsExpanded">AEXP_Corgi</li>
+				<li MayRequire="VanillaExpanded.VanillaAnimalsExpanded">AEXP_FrenchBulldog</li>
+				<li MayRequire="VanillaExpanded.VanillaAnimalsExpanded">AEXP_GermanShepherd</li>
+				<li MayRequire="VanillaExpanded.VanillaAnimalsExpanded">AEXP_GreatDane</li>
+				<li MayRequire="VanillaExpanded.VanillaAnimalsExpanded">AEXP_Poodle</li>
+				<li MayRequire="VanillaExpanded.VanillaAnimalsExpanded">AEXP_Pug</li>
+				<li MayRequire="VanillaExpanded.VanillaAnimalsExpanded">AEXP_Shih-Tzu</li>
+				<li MayRequire="VanillaExpanded.VanillaAnimalsExpanded">AEXP_WelshTerrier</li>
+				<li MayRequire="qux.stray.dogs">StrayDogs_Shiba</li>
+				<li MayRequire="qux.stray.dogs">StrayDogs_Kai</li>
+				<li MayRequire="qux.stray.dogs">StrayDogs_Hokkaido</li>
+				<li MayRequire="qux.stray.dogs">StrayDogs_Kishu</li>
+				<li MayRequire="qux.stray.dogs">StrayDogs_Shikoku</li>
+				<li MayRequire="qux.stray.dogs">StrayDogs_AkitaJapanese</li>
+
+				<li>SCMiniatureDachshund</li>
+				<li>SCSchnauzer</li>
+				<li>SCPug</li>
+				<li>SCWelshCorgi</li>
+				<li>SCAfghanHound</li>
+				<li>SCBorderCollie</li>
+				<li>SCBullTerrier</li>
+				<li>SCChowchow</li>
+				<li>SCCollie</li>
+				<li>SCDoberman</li>
+				<li>SCGoldenRetriever</li>
+				<li>SCGreyhound</li>
+				<li>SCOldEnglishSheepdog</li>
+				<li>SCStandardPoodle</li>
+				<li>SCBorzoi</li>
+				<li>SCBullmastiff</li>
+				<li>SCCaucasianshepherd</li>
+				<li>SCSaintbernard</li>		
+			</canCrossBreedWith>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3.5, 0.7)</li>
+					<li>(4, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.25</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.5</minAge>
+					<soundWounded>Pawn_Dog_Injured</soundWounded>
+					<soundDeath>Pawn_Dog_Death</soundDeath>
+					<soundCall>Pawn_Dog_Call</soundCall>
+					<soundAngry>Pawn_Dog_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalCommon</li>
+			<li>AnimalPet</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>SCNewfoundland</defName>
+		<label>newfoundland</label>
+		<labelPlural>newfoundlands</labelPlural>
+		<race>SCNewfoundland</race>
+		<combatPower>65</combatPower>
+		<moveSpeedFactorByTerrainTag>
+			<li>
+				<key>Water</key>
+				<value>0.9</value>
+			</li>
+		</moveSpeedFactorByTerrainTag>
+		<lifeStages>
+			<li>
+				<label>Newfoundland Puppy</label>
+				<labelPlural>Newfoundland Puppies</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Newfoundland</texPath>
+					<drawSize>1.50</drawSize>
+					<color>(255,255,255)</color>
+					<shadowData>
+						<volume>(0.2, 0.1, 0.2)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
+					<drawSize>1.25</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Newfoundland</texPath>
+					<drawSize>1.75</drawSize>
+					<color>(255,255,255)</color>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Newfoundland</texPath>
+					<drawSize>2.00</drawSize>
+					<color>(255,255,255)</color>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+</Defs>

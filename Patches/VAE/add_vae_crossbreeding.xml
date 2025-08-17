@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AEXP_Beagle"]/race</xpath>
+	<value>
+	  <canCrossBreedWith>
+	    <li>SCNewfoundland</li>
+	  </canCrossBreedWith>
+	</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AEXP_Chihuahua"]/race</xpath>
+	<value>
+	  <canCrossBreedWith>
+	    <li>SCNewfoundland</li>
+	  </canCrossBreedWith>
+	</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AEXP_Corgi"]/race</xpath>
+	<value>
+	  <canCrossBreedWith>
+	    <li>SCNewfoundland</li>
+	  </canCrossBreedWith>
+	</value>
+  </Operation>
+    
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AEXP_FrenchBulldog"]/race</xpath>
+	<value>
+	  <canCrossBreedWith>
+	    <li>SCNewfoundland</li>
+	  </canCrossBreedWith>
+	</value>
+  </Operation>
+    
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AEXP_GermanShepherd"]/race</xpath>
+	<value>
+	  <canCrossBreedWith>
+	    <li>SCNewfoundland</li>
+	  </canCrossBreedWith>
+	</value>
+  </Operation>
+    
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AEXP_GreatDane"]/race</xpath>
+	<value>
+	  <canCrossBreedWith>
+	    <li>SCNewfoundland</li>
+	  </canCrossBreedWith>
+	</value>
+  </Operation>
+    
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AEXP_Poodle"]/race</xpath>
+	<value>
+	  <canCrossBreedWith>
+	    <li>SCNewfoundland</li>
+	  </canCrossBreedWith>
+	</value>
+  </Operation>
+    
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AEXP_Pug"]/race</xpath>
+	<value>
+	  <canCrossBreedWith>
+	    <li>SCNewfoundland</li>
+	  </canCrossBreedWith>
+	</value>
+  </Operation>
+    
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AEXP_Shih-Tzu"]/race</xpath>
+	<value>
+	  <canCrossBreedWith>
+	    <li>SCNewfoundland</li>
+	  </canCrossBreedWith>
+	</value>
+  </Operation>
+    
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AEXP_WelshTerrier"]/race</xpath>
+	<value>
+	  <canCrossBreedWith>
+	    <li>SCNewfoundland</li>
+	  </canCrossBreedWith>
+	</value>
+  </Operation>
+</Patch>
