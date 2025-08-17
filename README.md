@@ -1,5 +1,4 @@
-# scdpr
-Spidercamp's Dog Pack Restoration
+# Spidercamp's Dog Pack Restoration
 
 For many years Spidercamp's Dog Pack has remained never fully completed. There are several dog breeds mentioned either in the code or description but not available to use: beagles, Irish wolfhounds, and Newfoundlands. Beagles and Irish wolfhounds were mostly coded but graphics were never made, while Newfoundlands had graphics but no code. Since Mlie's Continued version is a faithful port of the original and doesn't add them, nor does the newer qux's Stray Dogs (rescued), I've taken it upon myself to fix at least Newfoundlands and Irish wolfhounds, as beagles were added with Vanilla Animals Expanded.
 	
